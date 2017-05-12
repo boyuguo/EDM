@@ -22,7 +22,7 @@ const EMAIL = yargs.argv.to;
 // Declar var so that both AWS and Litmus task can use it.
 var CONFIG;
 
-var watchTask='build-jfn';
+var watchTask='build';
 var site = watchTask.split('-')[1];
 // Build the "dist" folder by running all of the above tasks
 gulp.task('build',
